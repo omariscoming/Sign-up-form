@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Noto+Sans+Arabic:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,326;1,326&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.form-bar{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    background-image: url("kimberly-farmer-lUaaKCUANVI-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.image-bar{
+    flex: 1;
+    height: 100vh;
+    background-image: url("./book.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-container{
+    gap: 10px;
+    position: relative;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+img{
+    max-width: 100%;
+    height: 80%;
+    object-fit: contain;
+    transition: ease-in 0.3s;
+}
+
+img:hover{
+    max-width: 100%;
+    height: 85%;
+}
+
+.title-bar{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+    top: 15px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.title{
+    margin-left: 20px;
+    font-size: 24px;
+    line-height: 24px;
+    border-radius: 10px;
+    color: white;
+    padding: 20px;
+    width: 550px;
+}
+
+.footer{
+    margin-left: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+
+
+button {
+    margin-top: 20px;
+    height: 40px;
+    width: 250px;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;}
+    form{
+    width: 100%;
+
+}
+
+
+.form-grid{
+    display: flex;
+}
+
+.group{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.sub-group{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.left{
+    height: 300px;
+    flex: 1.5;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.right{
+    flex: 1;
+}
+
+.log-in{
+    margin-left: 3px;
+    color: #e8e8e8;
+    font-family: "Montserrat", sans-serif;
+}
+
+a{
+    font-family: "Montserrat", sans-serif;
+    margin-left: 4px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+label{
+    color: #ffffff;
+    font-weight: lighter;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+}
+
+input{
+    padding-left: 5px;
+    width: 260px;
+    height: 35px;
+    font-size: 16px;
+    transition: ease-out 0.8s;
+    background-color: transparent;
+    color: white;
+}
+
+input:invalid{
+    border: 2px solid #ff0000;
+    outline: none;
+    box-shadow: rgba(191, 0, 0, 0.30) 0px -12px 30px
+}
+
+input:valid{
+    border: 2px solid #c1c1c1;
+    outline: none;
+}
+
+input:focus{
+    border: 2px solid #ffffff;
+    outline: none;
+    box-shadow: rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(163, 163, 163, 0.12) 0px 4px 6px, rgba(218, 218, 218, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
+}
+
+h2{
+    font-size: 42px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
